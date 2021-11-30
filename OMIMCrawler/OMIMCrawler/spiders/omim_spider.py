@@ -15,7 +15,7 @@ class OmimSpider(Spider):
         """Loop each OMIM entry list in OMIM number file"""
 
         # http://omim.org/static/omim/data/mim2gene.txt
-        mimnum_filename = '/home/lixuefei/Pipeline/Scrapy/OMIMCrawler/OMIMCrawler/mim2gene.txt'
+        mimnum_filename = '../mim2gene.txt'
 
         with open(mimnum_filename) as mimnum_file:
             for line in mimnum_file:
